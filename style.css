@@ -1,0 +1,47 @@
+
+
+body {
+  background-color: skyblue;
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+#quote-box {
+  width: min(90vw, 400px);
+  height: min(50vh, 500px);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  border-radius: 4px;
+  box-shadow: 5px 5px rgba(200, 200, 200, .3);
+}
+
+#text {
+  display: inline;
+  font-size: 1.6rem;
+}
+
+.bi-quote {
+  font-size: 2rem;
+}
+
+#author {
+  display: block;
+  font-size: 1rem;
+  text-align: right;
+  margin-right: 8px;
+}
+
+#btn-wrapper {
+  align-items: center;
+  /* width: 10px;
+  height: 10px; */
+}
+.bi-twitter {
+  font-size: 2.5rem;
+}
+
+.btn {
+  width: 120px;
+  height: 40px;
+  margin-left: 16px;
+}
